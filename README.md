@@ -14,6 +14,8 @@
 
 </div>
 
+![Spartan social preview](assets/social-preview.svg)
+
 ---
 
 ## The Problem
