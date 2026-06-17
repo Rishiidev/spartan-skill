@@ -4,9 +4,11 @@ Dual-mode token compression for Claude. Cuts token usage **65–75%** with zero 
 
 ## Install
 
-```
-/plugin install github:Rishiidev/spartan-skill
-```
+| Platform | Method |
+|----------|--------|
+| **Claude Code** | `/plugin install github:Rishiidev/spartan-skill` |
+| **Cowork** | `/plugin install github:Rishiidev/spartan-skill` (if plugin support enabled) or import the `.skill` file |
+| **Claude.ai** | Download `spartan.skill` from [Releases](https://github.com/Rishiidev/spartan-skill/releases) and import it, or paste the contents of `skills/spartan/SKILL.md` into a Project instruction |
 
 ## Two Modes
 
