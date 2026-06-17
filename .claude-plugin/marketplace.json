@@ -1,0 +1,19 @@
+{
+  "name": "spartan-skill",
+  "owner": {
+    "name": "Rishiidev",
+    "url": "https://github.com/Rishiidev"
+  },
+  "metadata": {
+    "description": "Dual-mode token compression for Claude — cuts token usage 65-75% with zero loss of technical accuracy",
+    "version": "1.0.0",
+    "repository": "https://github.com/Rishiidev/spartan-skill"
+  },
+  "plugins": [
+    {
+      "name": "spartan-skill",
+      "description": "Dual-mode token compression skill. Output side (spartan out) makes Claude respond terse. Input side (spartan in) compresses pasted docs/context. Three intensity levels: lite / full / ultra. Works in Claude.ai, Cowork, and Claude Code — no CLI required.",
+      "source": "./"
+    }
+  ]
+}
