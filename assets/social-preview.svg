@@ -1,0 +1,53 @@
+<svg width="1280" height="640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="6" height="640" fill="#f0883e"/>
+  <!-- Sword icon -->
+  <text x="60" y="145" font-family="system-ui, sans-serif" font-size="72">⚔️</text>
+  <!-- Project name -->
+  <text x="160" y="145" font-family="system-ui, sans-serif" font-size="80" font-weight="800" fill="#ffffff">Spartan</text>
+  <!-- Value prop -->
+  <text x="60" y="205" font-family="system-ui, sans-serif" font-size="30" fill="#8b949e">Cut Claude's token usage 65–75%. Zero loss of technical accuracy.</text>
+  <!-- Divider -->
+  <line x1="60" y1="230" x2="1220" y2="230" stroke="#21262d" stroke-width="1"/>
+  <!-- Before label -->
+  <text x="60" y="275" font-family="'Courier New', monospace" font-size="18" fill="#6e7681">BEFORE</text>
+  <!-- Before block bg -->
+  <rect x="60" y="285" width="520" height="80" rx="6" fill="#161b22"/>
+  <text x="80" y="313" font-family="'Courier New', monospace" font-size="16" fill="#6e7681">"That's a great question! I'd be</text>
+  <text x="80" y="335" font-family="'Courier New', monospace" font-size="16" fill="#6e7681"> happy to help with that. It seems</text>
+  <text x="80" y="357" font-family="'Courier New', monospace" font-size="16" fill="#6e7681"> like you might want to consider..."</text>
+  <!-- Arrow -->
+  <text x="600" y="335" font-family="system-ui, sans-serif" font-size="36" fill="#f0883e">→</text>
+  <!-- After label -->
+  <text x="660" y="275" font-family="'Courier New', monospace" font-size="18" fill="#3fb950">AFTER  spartan</text>
+  <!-- After block bg -->
+  <rect x="660" y="285" width="560" height="80" rx="6" fill="#161b22"/>
+  <text x="680" y="320" font-family="'Courier New', monospace" font-size="20" fill="#3fb950">Auth token expiry. Check uses</text>
+  <text x="680" y="348" font-family="'Courier New', monospace" font-size="20" fill="#3fb950">`&lt;` not `&lt;=`. Fix:</text>
+  <!-- Savings badge -->
+  <rect x="1120" y="285" width="100" height="80" rx="6" fill="#f0883e" opacity="0.15"/>
+  <text x="1170" y="320" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#f0883e" text-anchor="middle">73%</text>
+  <text x="1170" y="345" font-family="system-ui, sans-serif" font-size="14" fill="#f0883e" text-anchor="middle">fewer</text>
+  <text x="1170" y="362" font-family="system-ui, sans-serif" font-size="14" fill="#f0883e" text-anchor="middle">tokens</text>
+  <!-- Install command box -->
+  <rect x="60" y="400" width="900" height="68" rx="8" fill="#161b22"/>
+  <text x="90" y="442" font-family="'Courier New', monospace" font-size="26" fill="#f0883e">$ /plugin install github:Rishiidev/spartan-skill</text>
+  <!-- Platform badges -->
+  <rect x="60" y="490" width="170" height="38" rx="19" fill="#161b22"/>
+  <text x="145" y="514" font-family="system-ui, sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">Claude Code</text>
+  <rect x="248" y="490" width="130" height="38" rx="19" fill="#161b22"/>
+  <text x="313" y="514" font-family="system-ui, sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">Cowork</text>
+  <rect x="396" y="490" width="130" height="38" rx="19" fill="#161b22"/>
+  <text x="461" y="514" font-family="system-ui, sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">Claude.ai</text>
+  <rect x="544" y="490" width="150" height="38" rx="19" fill="#161b22"/>
+  <text x="619" y="514" font-family="system-ui, sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">No CLI needed</text>
+  <!-- GitHub username -->
+  <text x="1220" y="610" font-family="system-ui, sans-serif" font-size="20" fill="#484f58" text-anchor="end">github.com/Rishiidev/spartan-skill</text>
+</svg>

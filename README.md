@@ -5,6 +5,7 @@
 **Cut Claude's token usage 65–75%. Zero loss of technical accuracy.**
 
 [![Stars](https://img.shields.io/github/stars/Rishiidev/spartan-skill?style=for-the-badge&color=gold)](https://github.com/Rishiidev/spartan-skill/stargazers)
+[![CI](https://github.com/Rishiidev/spartan-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/Rishiidev/spartan-skill/actions)
 [![License](https://img.shields.io/github/license/Rishiidev/spartan-skill?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)](https://github.com/Rishiidev/spartan-skill/releases)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-✓-green?style=for-the-badge)](https://claude.ai/code)
@@ -47,6 +48,13 @@ Same answer. **73% fewer tokens.**
 | **Claude Code** | `/plugin install github:Rishiidev/spartan-skill` |
 | **Cowork** | `/plugin install github:Rishiidev/spartan-skill` |
 | **Claude.ai** | Download [`spartan.skill`](https://github.com/Rishiidev/spartan-skill/releases/latest) → import it |
+
+---
+
+<div align="center">
+<b>If Spartan saves you tokens, star it — takes 2 seconds.</b><br>
+<a href="https://github.com/Rishiidev/spartan-skill">⭐ Star on GitHub</a>
+</div>
 
 ---
 
@@ -166,6 +174,12 @@ It resumes immediately after.
 
 ---
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Rishiidev/spartan-skill&type=Date)](https://star-history.com/#Rishiidev/spartan-skill&Date)
+
+---
+
 ## License
 
 MIT — use it, fork it, share it.
@@ -174,6 +188,7 @@ MIT — use it, fork it, share it.
 
 <div align="center">
 
-If Spartan saves you tokens, a ⭐ helps others find it.
+<b>Found Spartan useful? A ⭐ star helps others find it.</b><br>
+<a href="https://github.com/Rishiidev/spartan-skill">⭐ Star this repo</a>
 
 </div>
