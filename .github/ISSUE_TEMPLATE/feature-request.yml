@@ -1,0 +1,18 @@
+name: Feature Request
+description: Suggest a new compression mode, command, or improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: New command, intensity level, platform support, edge case handling?
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: When would this save you tokens?
+    validations:
+      required: true

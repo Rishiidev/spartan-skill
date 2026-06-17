@@ -1,0 +1,31 @@
+name: Bug Report
+description: Spartan removing something it shouldn't, or not compressing when it should
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Claude Code
+        - Cowork
+        - Claude.ai
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - spartan out
+        - spartan in
+        - spartan both
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did Claude output that it shouldn't have (or vice versa)?
+    validations:
+      required: true
